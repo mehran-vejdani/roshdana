@@ -1,0 +1,42 @@
+.information {
+    background-color: #174b44;
+    display: flex;
+    justify-content: space-around;
+    font-size: large;
+    color: white;
+}
+
+.number p {
+    margin: 7px;
+    cursor: pointer;
+}
+
+.menubar {
+    display: flex;
+}
+
+.hover:hover {
+    border-radius: 50%;
+    background-color: #36645E;
+}
+
+.icons {
+    font-size: 1.3rem;
+    margin: 5px 10px 0;
+    cursor: pointer;
+}
+
+@media screen and (max-width:600px) {
+    .information {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .menubar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

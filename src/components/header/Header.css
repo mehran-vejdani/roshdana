@@ -1,0 +1,26 @@
+.backgroung {
+    background-image: url("../images/heading.jpg");
+    background-size: cover;
+}
+
+.abouthead {
+    display: flex;
+}
+
+.img {
+    width: 110px;
+    margin-top: 10px;
+}
+
+.imgbox {
+    flex-grow: 0.86;
+}
+
+.sublogo {
+    color: #866821;
+    font-weight: bolder;
+}
+
+.marktext {
+    color: blue;
+}

@@ -1,0 +1,19 @@
+.topText h1 {
+    font-weight: bolder;
+}
+
+.paragraph {
+    width: 520px;
+}
+
+.paragraph p {
+    font-size: larger;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.btncolor {
+    padding: 20px;
+    width: 118;
+    height: 61px;
+}
