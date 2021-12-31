@@ -1,7 +1,3 @@
-.informationIE {
-    display: flex;
-}
-
 .txtside {
     background-color: #C39A3E;
 }
@@ -9,4 +5,16 @@
 .logoside {
     background-color: gray;
     text-align: center;
+}
+
+@media screen and (max-width:600px) {
+    .informationIE {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .logoside {
+        width: 100%;
+    }
 }

@@ -4,6 +4,8 @@ import React from "react";
 import TopHeader from "./topheader";
 import Header from "./header";
 import Information from "./information";
+import Explan from "./explanation";
+import Courses from "./courses";
 //end Components
 
 const Home = () => {
@@ -12,6 +14,8 @@ const Home = () => {
       <TopHeader />
       <Header />
       <Information />
+      <Explan />
+      <Courses />
     </div>
   );
 };

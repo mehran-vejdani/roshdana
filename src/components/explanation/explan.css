@@ -1,0 +1,22 @@
+.header {
+    background-color: #688345;
+}
+
+#border {
+    width: 50px;
+    border-bottom: 4px solid gold;
+}
+
+.cardSize {
+    width: 18rem;
+    background-color: #688345;
+    border: none;
+    color: white;
+}
+
+@media screen and (max-width:600px) {
+    .topExplan {
+        display: flex;
+        flex-direction: column;
+    }
+}
