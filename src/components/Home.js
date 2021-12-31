@@ -1,11 +1,15 @@
 import React from "react";
 
 //َComponents
-import TopHeader from "./topheader";
-import Header from "./header";
-import Information from "./information";
-import Explan from "./explanation";
-import Courses from "./courses";
+
+import {
+  Reasons,
+  TopHeader,
+  Header,
+  Information,
+  Explan,
+  Courses,
+} from "./index";
 //end Components
 
 const Home = () => {
@@ -16,6 +20,7 @@ const Home = () => {
       <Information />
       <Explan />
       <Courses />
+      <Reasons />
     </div>
   );
 };
