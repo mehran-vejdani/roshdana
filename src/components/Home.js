@@ -9,6 +9,7 @@ import {
   Information,
   Explan,
   Courses,
+  Colleague,
 } from "./index";
 //end Components
 
@@ -21,6 +22,7 @@ const Home = () => {
       <Explan />
       <Courses />
       <Reasons />
+      <Colleague />
     </div>
   );
 };

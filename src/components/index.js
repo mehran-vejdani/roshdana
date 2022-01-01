@@ -5,5 +5,5 @@ import Information from "./information";
 import Explan from "./explanation";
 import Courses from "./courses";
 import Reasons from "./reasons";
-
-export { Home, TopHeader, Header, Information, Explan, Courses, Reasons }
+import Colleague from "./colleague"
+export { Home, TopHeader, Header, Information, Explan, Courses, Reasons, Colleague }

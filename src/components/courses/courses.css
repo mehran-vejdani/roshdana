@@ -1,7 +1,14 @@
 .course {
-    width: 18rem;
+    width: 19rem;
 }
 
 .courseheader {
     background-color: #997360;
+}
+
+@media screen and (max-width:600px) {
+    .courses {
+        display: flex;
+        flex-direction: column;
+    }
 }

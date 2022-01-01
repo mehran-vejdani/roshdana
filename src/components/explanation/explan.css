@@ -7,11 +7,15 @@
     border-bottom: 4px solid gold;
 }
 
-.cardSize {
+.cardcolor {
     width: 18rem;
-    background-color: #688345;
-    border: none;
     color: white;
+    border: none;
+}
+
+.cardIcon {
+    width: 100px;
+    height: 50px;
 }
 
 @media screen and (max-width:600px) {
