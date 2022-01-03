@@ -1,9 +1,21 @@
 .reason {
-    background-color: rgb(204, 194, 174);
+    background-color: rgb(221, 216, 207);
     width: 18rem;
     border: none;
 }
 
 .reasonheader {
-    background-color: rgb(204, 194, 174);
+    background-color: rgb(221, 216, 207);
+}
+
+.rsize {
+    width: 20px;
+}
+
+@media screen and (max-width:600px) {
+    .reason {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }

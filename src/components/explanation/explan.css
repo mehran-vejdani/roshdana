@@ -14,13 +14,25 @@
 }
 
 .cardIcon {
-    width: 100px;
+    width: 85px;
     height: 50px;
+}
+
+.topExplan {
+    display: grid;
+    grid-template-columns: 50px 260px 50px 260px 50px 260px;
+    /* grid-template-rows: 250px 250px 250px; */
+    grid-column-gap: 50px;
+    grid-row-gap: 25px;
+    justify-items: stretch;
+    align-items: stretch;
 }
 
 @media screen and (max-width:600px) {
     .topExplan {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }

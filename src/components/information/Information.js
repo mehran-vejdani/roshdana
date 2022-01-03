@@ -35,7 +35,7 @@ const Information = () => {
           </div>
         </div>
 
-        <div className="logoside  col-6 p-5">
+        <div className="logoside  col-sm-6 p-5">
           <img src={ielts} alt="logo" className="img-fluid" />
         </div>
       </div>

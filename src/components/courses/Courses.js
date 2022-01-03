@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import { Card } from "react-bootstrap";
 import axios from "axios";
 import "./courses.css";
+import { FaClock, FaUserAlt } from "react-icons/fa";
 const Courses = () => {
-  const [open, setOpen] = useState(false);
   const baseURL = "http://localhost:3001/CourseCard";
   const [courseList, setCourseList] = useState([]);
   const GetCourse = async () => {
@@ -37,15 +37,17 @@ const Courses = () => {
               <Card.Img variant="top" src={item.courseimg} />
               <Card.Body>
                 <Card.Title>{item.coursetxt} </Card.Title>
-                <Card.Text>{item.courseteacher}</Card.Text>
+                <Card.Text>
+                  <FaUserAlt />
+                  {item.courseteacher}
+                </Card.Text>
               </Card.Body>
               <div className="d-flex  justify-content-between align-items-center bg-light">
-                <Card.Footer>{item.coursetime}</Card.Footer>
-                <div className="progress w-25 m-1  ">
-                  <div className="progress-bar progress-bar-striped progress-bar-animated ps-5 text-center">
-                    {item.bar}
-                  </div>
-                </div>
+                <Card.Footer className="me-1">
+                  <FaClock />
+                  {item.coursetime}
+                </Card.Footer>
+
                 <div className="btn btn-secondary">{item.courseprice}</div>
               </div>
             </Card>

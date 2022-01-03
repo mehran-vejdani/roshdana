@@ -10,6 +10,7 @@ import {
   Explan,
   Courses,
   Colleague,
+  Course2,
 } from "./index";
 //end Components
 
@@ -23,6 +24,7 @@ const Home = () => {
       <Courses />
       <Reasons />
       <Colleague />
+      <Course2 />
     </div>
   );
 };

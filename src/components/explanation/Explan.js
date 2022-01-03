@@ -31,13 +31,13 @@ const Explan = () => {
           <p className="pt-3">چرا باید آیلتس ایز را انتخاب کنم؟</p>
           <div id="border"></div>
         </div>
-        <div className="topExplan container d-flex pt-4 flex-wrap">
+        <div className="topExplan container pt-4 ">
           {cardList.map((item, key) => (
             <>
-              <img src={item.cardIcon} alt="icon" className="cardIcon" />
+              <img src={item.cardIcon} alt="icon" className="cardIcon " />
               <Card
                 key={item.id}
-                className="cardcolor me-3 mb-5"
+                className="cardcolor "
                 style={{ backgroundColor: "#688345" }}
               >
                 <Card.Header> {item.headerText}</Card.Header>

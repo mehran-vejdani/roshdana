@@ -1,0 +1,16 @@
+.course {
+    width: 19rem;
+}
+
+.coursebox {
+    background-color: #C39A3E;
+}
+
+
+/* 
+@media screen and (max-width:600px) {
+    .courses {
+        display: flex;
+        flex-direction: column;
+    }
+} */

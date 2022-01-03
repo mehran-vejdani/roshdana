@@ -1,6 +1,7 @@
 .backgroung {
     background-image: url("../images/heading.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .abouthead {

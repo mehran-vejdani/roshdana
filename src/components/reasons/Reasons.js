@@ -1,7 +1,27 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Card } from "react-bootstrap";
 import "./reason.css";
+import axios from "axios";
 const Reasons = () => {
+  const baseURL = "http://localhost:3001/ReasonsCard";
+  const [reasonList, setReasonList] = useState([]);
+  const GetReason = async () => {
+    await axios({
+      method: "GET",
+      url: baseURL,
+    })
+      .then((res) => {
+        console.log(res.data);
+        setReasonList(res.data);
+      })
+      .catch((err) => {
+        console.log("err", err);
+      });
+  };
+
+  useEffect(() => {
+    GetReason();
+  }, []);
   return (
     <div>
       <div className="reasonheader">
@@ -11,16 +31,22 @@ const Reasons = () => {
           <div id="border"></div>
         </div>
         <div className="reason container d-flex pt-4">
-          <Card className="reason">
-            <Card.Img variant="top" src="holder.js/100px180" />
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
-            </Card.Body>
-          </Card>
+          {reasonList.map((item, key) => (
+            <Card
+              className="reason d-flex justify-content-center align-items-center text-center m-3"
+              key={item.id}
+            >
+              <Card.Img
+                variant="top"
+                src={item.Reasonimg}
+                style={{ width: "100px" }}
+              />
+              <Card.Body>
+                <Card.Title>{item.Reasontitle} </Card.Title>
+                <Card.Text>{item.Paragraph}</Card.Text>
+              </Card.Body>
+            </Card>
+          ))}
         </div>
       </div>
     </div>

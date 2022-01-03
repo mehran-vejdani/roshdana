@@ -68,7 +68,68 @@
             "id": 33,
             "bar": "100%"
         }
+    ],
+    "ReasonsCard": [{
+            "id": 10,
+            "Reasonimg": "https://img.icons8.com/external-flatart-icons-flat-flatarticons/64/000000/external-lamp-smart-home-flatart-icons-flat-flatarticons.png",
+            "Reasontitle": "حرفه ای شو ",
+            "Paragraph": "چاپگرها و متون بلکه روزنامه و مجله در ستون و سطر آنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کابردی می باشد ."
+        },
+        {
+            "id": 11,
+            "Reasonimg": "https://img.icons8.com/external-wanicon-lineal-color-wanicon/64/000000/external-headphone-work-at-home-wanicon-lineal-color-wanicon.png",
+            "Reasontitle": "مهارت خود را بالا ببر",
+            "Paragraph": "چاپگرها و متون بلکه روزنامه و مجله در ستون و سطر آنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کابردی می باشد ."
+
+        },
+        {
+            "id": 12,
+            "Reasonimg": "https://img.icons8.com/external-flatarticons-blue-flatarticons/65/000000/external-education-high-school-flatarticons-blue-flatarticons.png",
+            "Reasontitle": "صرفه جویی در زمان",
+            "Paragraph": "چاپگرها و متون بلکه روزنامه و مجله در ستون و سطر آنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کابردی می باشد ."
+
+        },
+        {
+            "id": 13,
+            "Reasonimg": "https://img.icons8.com/external-inipagistudio-mixed-inipagistudio/64/000000/external-education-university-campus-inipagistudio-mixed-inipagistudio.png",
+            "Reasontitle": "خود را بیازما ",
+            "Paragraph": "چاپگرها و متون بلکه روزنامه و مجله در ستون و سطر آنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کابردی می باشد ."
+
+        }
+    ],
+    "MoreCourse": [{
+            "id": 1,
+            "image": "",
+            "subject": "آکادمی ها",
+            "title": "زن و شوهر از دانشجویان دانشگاه هپی فارغ التحصیل شد",
+            "time": "5  خرداد    1399"
+
+        },
+        {
+            "id": 2,
+            "image": "",
+            "subject": " دولت",
+            "title": " نکات مفید برای ایجاد یک بحث با کیفیت  ",
+            "time": "5  خرداد    1399"
+
+        },
+        {
+            "id": 3,
+            "image": "",
+            "subject": " طراحی",
+            "title": "بازتاب فصل فجر",
+            "time": "5  خرداد    1399"
+
+        },
+        {
+            "id": 4,
+            "image": "",
+            "subject": " طراحی",
+            "title": "  شگفت انگیز است که دوستی هایی را که توسعه می یابند ببینند",
+            "time": "5  خرداد    1399"
+
+        }
+
+
     ]
-
-
 }
