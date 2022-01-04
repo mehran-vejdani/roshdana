@@ -11,13 +11,14 @@ import {
   Courses,
   Colleague,
   Course2,
+  Footers,
 } from "./index";
 //end Components
 
 const Home = () => {
   return (
     <div>
-      <TopHeader />
+      {/* <TopHeader /> */}
       <Header />
       <Information />
       <Explan />
@@ -25,6 +26,7 @@ const Home = () => {
       <Reasons />
       <Colleague />
       <Course2 />
+      {/* <Footers /> */}
     </div>
   );
 };

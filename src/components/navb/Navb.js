@@ -6,7 +6,7 @@ const Navb = () => {
   return (
     <div>
       <Container>
-        <Navbar expand="lg" variant="dark">
+        <Navbar expand="lg" variant="light">
           <Container fluid>
             <Navbar.Toggle aria-controls="navbarScroll" />
             <Navbar.Collapse id="navbarScroll">
@@ -46,14 +46,10 @@ const Navb = () => {
                   </NavDropdown.Item>
                 </NavDropdown>
 
-                <Nav.Link href="#action1" className="text-light">
-                  فروشگاه
-                </Nav.Link>
-                <Nav.Link href="#action2" className="text-light">
-                  وبلاگ
-                </Nav.Link>
+                <Nav.Link href="#action1">فروشگاه</Nav.Link>
+                <Nav.Link href="#action2">وبلاگ</Nav.Link>
 
-                <Button variant=" rounded-circle  text-light">
+                <Button variant=" rounded-circle ">
                   <AiOutlineSearch />
                 </Button>
               </Nav>

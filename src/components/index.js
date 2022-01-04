@@ -7,4 +7,5 @@ import Courses from "./courses";
 import Reasons from "./reasons";
 import Colleague from "./colleague";
 import Course2 from "./course2";
-export { Home, TopHeader, Header, Information, Explan, Courses, Reasons, Colleague, Course2 }
+import Footers from "./footers";
+export { Home, TopHeader, Header, Information, Explan, Courses, Reasons, Colleague, Course2, Footers }

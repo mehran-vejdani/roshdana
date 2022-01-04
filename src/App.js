@@ -1,8 +1,11 @@
-import { Home } from "./components";
+import { Home, TopHeader, Footers } from "./components";
+
 function App() {
   return (
     <div>
+      <TopHeader />
       <Home />
+      <Footers />
     </div>
   );
 }
