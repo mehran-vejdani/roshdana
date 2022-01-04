@@ -100,9 +100,11 @@ const Footers = () => {
             </div>
           </div>
         </div>
-        <div class="container p-3 text-light justify-content-between d-flex">
-          <p> 1400کلیه حقوق متعلق به رشدانا است . طراحی توسط مهران وجدانی </p>
-          <p className="text-uppercase">roshdana</p>
+        <div className="underFooter">
+          <div class=" p-3 text-light justify-content-between d-flex container ">
+            <p> 1400کلیه حقوق متعلق به رشدانا است . طراحی توسط مهران وجدانی </p>
+            <p className="text-uppercase">roshdana</p>
+          </div>
         </div>
       </div>
     </>

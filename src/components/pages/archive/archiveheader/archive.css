@@ -1,0 +1,21 @@
+.archivebg {
+    background-image: url("../../../images/archivebg.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.archiveimg {
+    background-color: white;
+    opacity: 0.5;
+    width: 150px;
+}
+
+.box {
+    background-color: gray;
+    width: 15px;
+    height: 15px;
+}
+
+.box:nth-of-type(1) {
+    background-color: green;
+}

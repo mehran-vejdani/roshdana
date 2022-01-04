@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Home, TopHeader, Footers } from "./components";
+import { Home, TopHeader, Footers, Archive } from "./components";
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
         <TopHeader />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/Archive" element={<Archive />} />
         </Routes>
       </Router>
 

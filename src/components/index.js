@@ -8,4 +8,19 @@ import Reasons from "./reasons";
 import Colleague from "./colleague";
 import Course2 from "./course2";
 import Footers from "./footers";
-export { Home, TopHeader, Header, Information, Explan, Courses, Reasons, Colleague, Course2, Footers }
+import Archive from "./pages/archive/Archive";
+import ArchiveHeader from "./pages/archive/archiveheader";
+export {
+    Home,
+    TopHeader,
+    Header,
+    Information,
+    Explan,
+    Courses,
+    Reasons,
+    Colleague,
+    Course2,
+    Footers,
+    Archive,
+    ArchiveHeader
+}
