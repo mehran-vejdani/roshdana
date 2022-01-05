@@ -34,7 +34,12 @@ const Explan = () => {
         <div className="topExplan container pt-4 ">
           {cardList.map((item, key) => (
             <>
-              <img src={item.cardIcon} alt="icon" className="cardIcon " />
+              <img
+                src={item.cardIcon}
+                alt="icon"
+                className="cardIcon "
+                key={item.id}
+              />
               <Card
                 key={item.id}
                 className="cardcolor "
