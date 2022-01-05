@@ -1,13 +1,11 @@
 .information {
     background-color: #174b44;
-    display: flex;
-    justify-content: space-around;
     font-size: large;
     color: white;
 }
 
 .number p {
-    margin: 7px;
+    padding-top: 7px;
     cursor: pointer;
 }
 

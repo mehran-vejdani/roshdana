@@ -10,6 +10,7 @@ import Course2 from "./course2";
 import Footers from "./footers";
 import Archive from "./pages/archive/Archive";
 import ArchiveHeader from "./pages/archive/archiveheader";
+import Ielts from "./pages/archive/ielts/Ielts";
 export {
     Home,
     TopHeader,
@@ -22,5 +23,6 @@ export {
     Course2,
     Footers,
     Archive,
-    ArchiveHeader
+    ArchiveHeader,
+    Ielts
 }
