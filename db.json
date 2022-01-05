@@ -99,7 +99,7 @@
     ],
     "MoreCourse": [{
             "id": 111,
-            "image": "",
+            "image": "https://cdn.pixabay.com/photo/2016/11/08/05/10/students-1807505_960_720.jpg",
             "subject": "آکادمی ها",
             "title": "زن و شوهر از دانشجویان دانشگاه هپی فارغ التحصیل شد",
             "time": "5  خرداد    1399"
@@ -107,7 +107,7 @@
         },
         {
             "id": 112,
-            "image": "",
+            "image": "https://cdn.pixabay.com/photo/2017/07/31/11/21/people-2557396_960_720.jpg",
             "subject": " دولت",
             "title": " نکات مفید برای ایجاد یک بحث با کیفیت  ",
             "time": "5  خرداد    1399"
@@ -115,7 +115,7 @@
         },
         {
             "id": 113,
-            "image": "",
+            "image": "https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849825_960_720.jpg",
             "subject": " طراحی",
             "title": "بازتاب فصل فجر",
             "time": "5  خرداد    1399"
@@ -123,7 +123,7 @@
         },
         {
             "id": 114,
-            "image": "",
+            "image": "https://cdn.pixabay.com/photo/2018/10/02/11/13/girl-3718526_960_720.jpg",
             "subject": " طراحی",
             "title": "  شگفت انگیز است که دوستی هایی را که توسعه می یابند ببینند",
             "time": "5  خرداد    1399"

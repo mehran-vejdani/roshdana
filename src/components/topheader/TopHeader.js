@@ -1,6 +1,6 @@
 import React from "react";
 import "./info.css";
-import { Container } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import {
   AiOutlinePhone,
   AiOutlineInstagram,
@@ -22,10 +22,15 @@ const TopHeader = () => {
             <div className="menu">
               <ul className="nav">
                 <li className="nav-item">
-                  <a className="nav-link link-light hover">میز راهنما</a>
+                  <Link to="/">
+                    {" "}
+                    <a className="nav-link link-light hover"> میز راهنما</a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link link-light hover">منابع ما</a>
+                  <Link to="/Archive">
+                    <a className="nav-link link-light hover">منابع ما</a>{" "}
+                  </Link>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link link-light hover">ثبت نام</a>
